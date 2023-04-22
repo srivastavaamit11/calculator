@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.calc {
+
+  text-align: center;
+}
+
+button {
+  width:125px;
+  height: 70px;
+  border-radius: 3px;
+  background-color: rgb(204, 252, 162);
+}
+
+.prev-display {
+  margin: 0px 710px;
+  padding : 5px 10px;
+  text-align: right;
+  background-color: #9c9edf;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.result {
+  margin: 0px 710px;
+  padding : 5px 10px;
+  text-align: right;
+  background-color: #9c9edf;
 }
